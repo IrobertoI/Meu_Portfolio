@@ -280,3 +280,39 @@ main .sobre {
         transform: translate3d(0,0,0);
     }
 }
+
+/* RESPONSIVO */
+
+@media(max-width: 992px) {
+    .section-div img {
+        display: none;
+    }
+
+    .section-div {
+        background-image: url(WhatsApp\ Image\ 2024-10-10\ at\ 09.41.50.jpeg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    header .navegacao-primaria {
+        display: none;
+    }
+
+    header i {
+        color: #f7f7f7;
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 992px) {
+    .sobre img {
+        grid-column: 1/-1;
+        justify-self: center;
+        max-width: 40%;
+    }
+
+    .sobre_conteudo {
+        grid-column: 1/-1;
+    }
+}
